@@ -1,0 +1,11 @@
+let baseMedia;
+
+if (process.env.NODE_ENV === "production") {   
+    baseMedia = "https://backtutor.onrender.com/media";    
+
+
+} else {
+    baseMedia =     "http:/localhost:4250/media"
+}
+
+export default baseMedia;
